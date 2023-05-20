@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gym Video with Quotes</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url(images/brett-jordan-U2q73PfHFpM-unsplash.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    
+    video {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 style="color: #f44336;">Gym Quotes Video</h1>
+    <video controls>
+      <source src="videos/videoplayback.mp4" type="video/mp4">
+      <!-- Provide alternative formats for better browser compatibility -->
+      <source src="path/to/your/video.webm" type="video/webm">
+      <source src="path/to/your/video.ogg" type="video/ogg">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</body>
+</html>
